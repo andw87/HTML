@@ -1,0 +1,17 @@
+
+Brackets é um editor de código-fonte com foco principal no desenvolvimento web. 
+Criado pela Adobe Systems, é um software livre e de código aberto
+ licenciado sob a Licença MIT, e atualmente é mantido no GitHub pela Adobe e 
+ outros desenvolvedores de código aberto. Está escrito em JavaScript, HTML e CSS
+http://brackets.io/
+
+O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows,
+ Linux e macOS. Ele inclui suporte para depuração, controle Git incorporado, realce de sintaxe, 
+ complementação inteligente de código, snippets e refatoração de código.
+ https://code.visualstudio.com/
+
+ O Sublime Text é um software multiplataforma de edição de texto, no entanto utilizado por muitos
+  desenvolvedores para editar código-fonte, escrito em linguagem Python. Inicialmente, o programa foi pensado
+   para ser uma extensão do Vim. Sublime Text é um editor de texto, e não uma IDE como alguns dizem.
+https://www.sublimetext.com/
+
