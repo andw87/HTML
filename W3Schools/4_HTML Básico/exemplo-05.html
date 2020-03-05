@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--https://www.w3schools.com/tags/att_a_href.asp-->
+<!--https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a-->
+<!--http://www.fundacaobradesco.org.br/vv-apostilas/cursoHTML/Sintaxe_para_insercao_links.html-->
+<html>
+    <head>
+        <title>Links no HTML</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h3>Como colocar links em um código HTML</h3>
+        <p>O atributo href especifica o destino do link:<br><a href="https://www.w3schools.com"> Visit W3Schools</a><br></p>
+        <p>A sintaxe funciona: <xmp><a href="URL">Descrição do link</a></xmp><br></p>
+        <p>href significa (Hypertext Reference) que é o endereço de destino do link</p>
+        <p>Este é o único atributo obrigatório para âncoras definindo uma ligação para um hipertexto.<br> Ele indica o alvo do link, seja uma URL ou um fragmento de URL. Um fragmento de URL é <br>um nome precedido por  uma cerquilha (#), a qual especifica um destino interno (um ID)<br> dentro do documento atual. URLs não precisam se limitar à documentos Web baseados <br> em HTTP. URLs podem usar qualquer protocolo suportado pelo navegador. Por exemplo, file,<br> ftp, e mailto funcionam na maioria dos navegadores.</p>
+        <p><b>Nota:</b> <i>Você pode usar o fragmento especial "top" para criar um link para o topo<br> da página; por exemplo <a href="#top">Volte ao topo </a>. Este comportamento é<br> especificado pelo HTML5.</i></p>
+        <br>
+        <p>Também é possivel utilizar o href para direcionar a um envio de email por exemplo, <a href="mailto:anderson.awbf@gmail.com?Subject=Oi Anderson">Enviar e-mail</a><br></p>
+        <p>Neste caso a sintaxe é a seguinte: <xmp><a href="mailto:emaildodestinatario@provedor.com?Subject=Assunto do email">O que vai aparecer no navegador</a></xmp></p>
+        <br>
+        <p><b>Também é possível enviar para mais de um endereço de e-mail:</b><br></p>
+        <p><xmp><a href="mailto:primeiro@email.com?cc=segundo@email.com&bcc=terceiro@email.com
+            &subject=Titulo que aparecerá no assunto do email">Texto do link que aparecerá no navegador</a></xmp><br></p> 
+        <p><b>Podemos também vincular um Javascript:</b><br>exemplo<br><xmp><a href="javascript:alert('Hello World!');">O que vai aparecer no navegador</a></xmp><a href="javascript:alert('Hello World!');">Executar Javascript</a></p>      
+        <p><xmp><a href="URL">Descrição do link</a></xmp></p> 
+        <p><b>Atenção!</b> Eu acabei utilizando neste código a TAG xmp para exibir os códigos HTML no corpo do texto, porém "atenção" esta TAG é obsoleta e pode deixar de funcionar a qualquer momento<br> de acordo com esta<a href="https://www.w3.org/TR/html50/obsolete.htmlL"> recomendação</a> de 28 de Outubro de 2014.<br></p>
+        <p>É orientado utilizar as TAGs pre e code, eu tentei utilizar elas mas não funcionou, vou buscar maior conhecimento sobre o assunto e então atualizo este código.<br></p>
+        <p><i>anderson.awbf@gmail.com, em 05/03/2020 - 10:20 - Campo Grande/MS</i></p>
+        <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/xmp-->
+    </body>
+</html>
