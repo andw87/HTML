@@ -1,4 +1,10 @@
 <!doctype html>
+<!--
+    https://www.w3schools.com/html/html_id.asp
+    https://www.w3schools.com/tags/tag_ul.asp
+    https://www.w3schools.com/tags/tag_ol.asp
+    https://www.w3schools.com/tags/tag_li.asp
+-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -9,10 +15,34 @@
                 font-family: sans-serif;
                 font-size: 12 px;
             }
+            #estilo{
+                list-style-image: url(imagem/estrela.png);
+            }
 		</style>
     </head>
     
     <body>
-        
+        <ul>
+            <li id="estilo">Brasil</li>
+            <li id="estilo">Argentina</li>
+            <li id="estilo">México</li>
+            <li id="estilo">Paraguai</li>
+        </ul>
+        <br>
+        <ol type="a">
+            <li>Brasil</li>
+            <ul>
+                <li>São Paulo</li>
+                    <ol>
+                        <li>Palmeiras</li>
+                    </ol>
+                <li>Rio de Janeiro</li>
+                <li>Campo Grande</li>
+                <li>Ponta Porã</li>
+            </ul>
+            <li>Argentina</li>
+            <li>México</li>
+            <li>Paraguai</li>
+        </ol>
     </body>
 </html>
